@@ -32,7 +32,8 @@
 *	No understanding of semantic relationships.
 
 ### Semantic Search
-I choose to use the multi-qa-MiniLM-L6-cos-v1 model since it is the best preforming MiniLM model for semantic search. Sentence transformer performance leaderboard
+I choose to use the [multi-qa-MiniLM-L6-cos-v1](https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1) model since it is the best preforming MiniLM model for semantic search. <br>
+[Sentence transformer performance leaderboard](https://www.sbert.net/docs/sentence_transformer/pretrained_models.html)
 
 ### Evaluation
 I assume that semantic search is ground truth. I use the following metrics to evaluate the TF-IDF vectors performance:
