@@ -25,8 +25,8 @@
 
 
 ## Discussion:
-*The full discussion also appears in the notebook.
-*The interactive retrieval system is under the UI section.
+* The full discussion also appears in the notebook.
+* The **interactive retrieval system** is under the UI section.
 ### Issues with TF-IDF
 * Exact word matches are required; synonyms or related terms won't work.
 *	No understanding of semantic relationships.
