@@ -1,0 +1,11 @@
+pandas
+numpy
+torch --index-url https://download.pytorch.org/whl/cu121
+transformers 
+sentence_transformers
+faiss-cpu 
+huggingface_hub
+gradio
+langchain
+scikit-learn
+tqdm
