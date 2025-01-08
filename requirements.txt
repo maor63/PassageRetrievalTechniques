@@ -9,3 +9,5 @@ gradio
 langchain
 scikit-learn
 tqdm
+notebook
+jupyter_nbextensions_configurator
