@@ -53,8 +53,7 @@ Potential improvements for retrieval using an LLM include:**
 * For Both Searches:
   1.	Use an LLM to expand queries by generating synonyms, related terms, or paraphrased versions. Calculate the average similarity scores of the reformulated queries against the results to identify the most relevant passages.
   2.	Ask an LLM to generate relevance scores directly for each result, enhancing the ranking precision by incorporating semantic and contextual understanding.
-  3.	Apply a natural language inference (NLI) model to filter irrelevant results. An NLI model evaluates the relationship between a **premise** and a **hypothesis**:
-    * Use the NLI model to determine whether the query (hypothesis) is entailed by the result (premise).
+  3.	Apply a natural language inference (NLI) model to filter irrelevant results. An NLI model evaluates the relationship between a **premise** and a **hypothesis**. I use the NLI model to determine whether the query (hypothesis) is entailed by the result (premise).
 * For Semantic Search:
   
   4.	Fine-tune the word embeddings on the Harry Potter domain or a similar dataset. This would replace the general-purpose MiniLM embeddings with ones more attuned to the narrative style and vocabulary of the target text.
